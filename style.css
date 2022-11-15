@@ -1,0 +1,68 @@
+a{
+    background-color: black;
+    height: 150px;
+    width: 150px;
+}
+
+
+h1{
+    
+    background-color: blueviolet;
+    /* background-color:#245654 ; hexa code
+    /* background-color: rgb(4, 24,97); red green blue
+    /* background-color: rgba(24, 4,97, 4); red green blue alpha */
+
+}
+h2{
+  background-color: aquamarine;
+}
+p{
+    color: blue;
+}
+
+.zero{
+      width: 700px;
+      height: 700px;
+      background-color: aqua;
+      background-image: url(image/images.jpeg);
+      background-repeat:no-repeat;
+      background-size:cover; 
+      position: relative;
+      background-position: center;
+      overflow: scroll;
+      background-attachment: scroll;
+}
+
+                                         /* box model */
+.one{
+
+color: rgb(148, 200, 14);
+background-color: rgb(27, 40, 2);
+/* border: dotted; */
+/* border: double; */
+border: dashed; 
+border-width:thick;
+border-radius: 20px;
+width: 300px;
+height: 100px;
+
+ margin-top: 50px; 
+ margin-left: 50px; 
+ /* margin-right: 100px;  */
+/* margin-bottom: 50px; */
+}
+.two{
+     margin-top: 50px; 
+     margin-left: 50px; 
+    /* margin-right: 50px; */
+    /* margin-bottom: 50px; */
+    color: rgb(25, 3, 29);
+    background-color:rgb(5, 121, 119);
+    border: 10px;
+    border-left-style:double ;
+    border-right-style:dotted ;
+    border-top-style:dashed ;
+    border-bottom-style:solid ;
+    width: 300px;
+    height: 100px;
+}
